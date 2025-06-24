@@ -2,20 +2,107 @@
     margin: 0;
     padding: 0%;
     text-decoration: none;
-    color: black;
+    
 }
 
-.HEADERSLINKS{
+.HEADERSLINKS{ /* LOGO E LINKS DO HEADER*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 130px;
 }
 
-.HEADERSLINKS .LINKS{
+
+.HEADERSLINKS .LOGO{ /* DIV EM QUE ESTÁ O LOGO*/
+    width: 157px;
+    height: 105px;
+}
+
+.LOGO1{ /* LOGO */
+    width: 100%;
+    height: auto;
+}
+
+
+.HEADERSLINKS .LINKS{ /* DIV EM QUE ESTÁ OS LINKS*/
     margin: 30px;
 }
 
-.HEADERSLINKS .LINKS a{
-    margin: 10px;
+.HEADERSLINKS .LINKS a{ /* PROPRIEDADE DOS LINKS DENTRO DA DIV*/
+    margin: 17px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.MENUPRINCIPAL{ /* Section de textos*/
+    margin-top: 2%;
+}
+
+
+.TituloP{ /* Titulo principal em vermelho*/
+    display: flex;
+    justify-content: center;
+    color: #800020;
+    font-size: 55px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0%;
+}
+
+.TituloS{ /* Titulo secundario degrade*/
+    display: flex;
+    justify-content: center;
+    font-size: 49px;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-top: -1.7%;
+}
+
+.TituloT{ /* Descrição abaixo dos titulos*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Biryani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.BOTOESCHAMADA{ /* Divisão para os botoes de chamada de ação*/
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 15px;
+}
+
+.BotaoU a{ /* Caminho para o Chatbot de agenda e conversão*/
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    background-color: #800020;
+    color: #F8F8F8;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: "Biryani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.BotaoD a{ /* Caminho para o Chatbot/atendente de explicação e apresentação institucional*/
+    color: #000;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: "Biryani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     
 }
