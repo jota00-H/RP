@@ -2,7 +2,18 @@
     margin: 0;
     padding: 0%;
     text-decoration: none;
-    
+}
+
+.BACKGROUND{ /* BACKGROUND PRIMEIRA DIVISÃO*/
+   background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 44.717809557914734%,
+    rgba(246, 246, 246, 1) 100%
+    );
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
 
 .HEADERSLINKS{ /* LOGO E LINKS DO HEADER*/
@@ -106,4 +117,54 @@
     font-weight: 300;
     font-style: normal;
     
+}
+
+.APRESENTACAOELO{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.APRESENTACAOELO > div{
+    margin: 30px 10px 30px 10px;
+}
+
+.BOXELOAP{
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+    );
+    border-radius: 20px;
+    min-width: 564px;
+    height: 347px;
+    opacity: 0.2;
+    margin: 10px;
+}
+
+.BOXEGRAFICO{
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+    );
+    border-radius: 20px;
+    min-width: 564px;
+    height: 554px;
+    opacity: 0.2;
+    margin: 10px;
+}
+
+.BOXEFORCA{
+    display: block;
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+    );
+    border-radius: 20px;
+    min-width: 564px;
+    height: 554px;
+    opacity: 0.2;
+    margin: 10px;
 }
