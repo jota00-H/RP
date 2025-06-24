@@ -86,7 +86,7 @@
 
 .BotaoU a{ /* Caminho para o Chatbot de agenda e conversão*/
     display: inline-block;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 18px 5px 18px;
     background-color: #800020;
     color: #F8F8F8;
     border-radius: 20px;
@@ -95,6 +95,7 @@
     font-family: "Biryani", sans-serif;
     font-weight: 300;
     font-style: normal;
+    text-align: center;
 }
 
 .BotaoD a{ /* Caminho para o Chatbot/atendente de explicação e apresentação institucional*/
