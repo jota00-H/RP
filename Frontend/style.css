@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 
-.BACKGROUND{ /* BACKGROUND PRIMEIRA DIVISÃO*/
+.MENUPRINCIPAL .HEADERSLINKS .APRESENTACAOELO{ /* BACKGROUND ENTRE AS DIVISOES*/
    background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
@@ -119,52 +119,77 @@
     
 }
 
-.APRESENTACAOELO{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
+
+/*_____________________________________________________________________________________________________*/
+
+
+.GRIDAPRESENTACAO{
+    display: grid;
+    max-width: 1138px;
+    margin: 1% auto 2% auto;
+    gap: 10px;
+    justify-content: center;
+    grid-template-areas:
+    "Elo Grafico" 
+    "Raio Grafico";
+    
 }
 
-.APRESENTACAOELO > div{
-    margin: 30px 10px 30px 10px;
+.FORMAGRID{ /*COR DAS BOXES*/
+     background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+    );
+    border-radius: 20px;
+    opacity: 0.3;
 }
+
 
 .BOXELOAP{
-    background: radial-gradient(
-    closest-side,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-    );
-    border-radius: 20px;
-    min-width: 564px;
+    grid-area: Elo;
+    width: 564px;
     height: 347px;
-    opacity: 0.2;
-    margin: 10px;
 }
 
+
 .BOXEGRAFICO{
-    background: radial-gradient(
-    closest-side,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-    );
-    border-radius: 20px;
-    min-width: 564px;
+    grid-area: Grafico;
+    width: 564px;
     height: 554px;
-    opacity: 0.2;
-    margin: 10px;
 }
 
 .BOXEFORCA{
-    display: block;
-    background: radial-gradient(
-    closest-side,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-    );
-    border-radius: 20px;
-    min-width: 564px;
-    height: 554px;
-    opacity: 0.2;
-    margin: 10px;
+    grid-area: Raio;
+    width: 564px;
+    height: 188px;
 }
+
+/*.GRIDAPRESENTACAO{ /*FORMACAO DO GRID LAYOUT*
+    display: grid;
+    max-width: 1138px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(164px, 564px));
+    gap: 10px;
+    justify-content: center;
+} 
+
+
+.BOXELOAP{ /*TAMANHO DAS BOXES
+    width: 564px;
+    height: 347px;
+    display: flex;
+    
+} 
+
+.BOXEGRAFICO{
+    width: 564px;
+    height: 554px;
+}
+
+.BOXEFORCA{
+    width: 564px;
+    height: 188px;
+}
+    */
+    
