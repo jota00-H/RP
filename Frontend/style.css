@@ -174,17 +174,17 @@
 }
 
 
-.PRIMEIRADIVISAO{
+.PRIMEIRADIVISAO{ /* DIVIÃO EM GRID PARA OS ELEMENTOS DA PRIMEIRA LINHA*/
     display: grid;
     justify-content: right;
     grid-template-areas:
     "balao boneco1" 
     "balao boneco1corpo";
-    margin: 20px;
+    margin: 7% 3% auto auto;
 }
 
 
-.boneco1{
+.boneco1{ /* CABEÇA DO BONECO E ALINHAMENTO NO GRID*/
     margin: 5px 5px -5px 5px;
     background: #afafaf;
     border-radius: 50%;
@@ -194,7 +194,7 @@
     grid-area: boneco1;
     }
 
-.boneco1corpo{
+.boneco1corpo{ /* CORPO DO BONECO E ALINHAMENTO NO GRID*/
     background: #afafaf;
     border-radius: 10px 10px 0px 0px;
     width: 37px;
@@ -204,7 +204,7 @@
 }
 
 
-.balao1{
+.balao1{ /*PRIMEIRO BALÃO DE FALA DO GRID*/
     display: block;
     align-content: center;
     justify-content: center;
@@ -218,20 +218,79 @@
     }
 
 
-.textobalao1{
+.textobalao01{ /*TEXTO DE "ELO, BOA NOITE" E ALINHAMENTO*/
     display: flex;
-    color: #111111;
     justify-content: center;
+    color: #111111;
     margin: 10px auto -10px -7%;
     font-family: "Crimson Text", serif;
     font-size: 2.2rem;
 }
 
-.textobalao2{
+.textobalao1{ /*TEXTO DO HORARIO E ALINAHEMNTO*/
     display: flex;
     color: #111111;
     justify-content: right;
     margin: -5% 7% 7% 7%;
+    font-family: "Biryani", sans-serif;
+    font-size: 0.8rem;
+}
+
+
+.SEGUNDADIVISAO{
+    display: grid;
+    justify-content: left;
+    grid-template-areas: 
+    "bonecoelo balao2";
+    margin: 5% auto auto 4%;
+}
+
+
+.bonecoelo{
+    display: flex;
+    grid-area: bonecoelo;
+    width: 80px;
+    height: 80px;
+    margin-top: -10%;
+}
+
+.sombraelo1{
+    display: flex;
+    background: #111111;
+    border-radius: 50%;
+    width: 72px;
+    height: 15px;
+    filter: blur(10px);
+    margin-top: -20%;
+}
+
+.balao2{
+    display: block;
+    background: #fffdfd;
+    border-radius: 20px;
+    width: 404px;
+    height: 66px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    grid-area: balao2;
+   
+}
+
+.textobalao02{ /*TEXTO DE "ELO, BOA NOITE" E ALINHAMENTO*/
+    display: flex;
+    justify-content: left;
+    color: #111111;
+    margin: 10px auto 10px 7%;
+    font-family: "Crimson Text", serif;
+    font-size: 2.2rem;
+}
+
+
+
+.textobalao2{ /*TEXTO DO HORARIO E ALINAHEMNTO*/
+    display: flex;
+    color: #111111;
+    justify-content: right;
+     margin: -5% 5% 7% 7%;
     font-family: "Biryani", sans-serif;
     font-size: 0.8rem;
 }
