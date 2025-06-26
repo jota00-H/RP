@@ -124,7 +124,7 @@
 /*_____________________________________________________________________________________________________*/
 
 
-.GRIDAPRESENTACAO{
+.GRIDAPRESENTACAO{ /* FORMAÇÃO E ALINHAMENTO DO DISPLAY GRID*/
     display: grid;
     max-width: 1138px;
     margin: 3% auto 2% auto;
@@ -158,20 +158,20 @@
     opacity: 0.3;
 }
 
-.BOXELOAP{
+.BOXELOAP{ /*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
     grid-area: Elo;
     width: 564px;
     height: 347px;
 }
 
 
-.BOXEGRAFICO{
+.BOXEGRAFICO{/*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
     grid-area: Grafico;
     width: 564px;
     height: 554px;
 }
 
-.BOXEFORCA{
+.BOXEFORCA{/*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
     grid-area: Raio;
     width: 564px;
     height: 188px;
