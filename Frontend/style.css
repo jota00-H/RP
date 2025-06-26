@@ -121,9 +121,6 @@
 }
 
 
-/*_____________________________________________________________________________________________________*/
-
-
 .GRIDAPRESENTACAO{ /* FORMAÇÃO E ALINHAMENTO DO DISPLAY GRID*/
     display: grid;
     max-width: 1138px;
@@ -151,11 +148,10 @@
 .FORMAGRID{ /*COR DAS BOXES*/
      background: radial-gradient(
     closest-side,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(0, 0, 0, 0.2) 100%
+    rgba(255, 255, 255, 0.05),
+    rgba(0, 0, 0, 0.05)
     );
     border-radius: 20px;
-    opacity: 0.3;
 }
 
 .BOXELOAP{ /*TAMANHO E DEFINIÇÃO DA OCUPAÇÃO NO GRID*/
@@ -177,5 +173,65 @@
     height: 188px;
 }
 
-    
 
+.PRIMEIRADIVISAO{
+    display: grid;
+    justify-content: right;
+    grid-template-areas:
+    "balao boneco1" 
+    "balao boneco1corpo";
+    margin: 20px;
+}
+
+
+.boneco1{
+    margin: 5px 5px -5px 5px;
+    background: #afafaf;
+    border-radius: 50%;
+    width: 26px;
+    height: 27px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    grid-area: boneco1;
+    }
+
+.boneco1corpo{
+    background: #afafaf;
+    border-radius: 10px 10px 0px 0px;
+    width: 37px;
+    height: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    grid-area: boneco1corpo;
+}
+
+
+.balao1{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    background: #fffdfd;
+    border-radius: 20px;
+    width: 259px;
+    height: 66px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    grid-area: balao;
+    margin-right: 10px;
+    }
+
+
+.textobalao1{
+    display: flex;
+    color: #111111;
+    justify-content: center;
+    margin: 10px auto -10px -7%;
+    font-family: "Crimson Text", serif;
+    font-size: 2.2rem;
+}
+
+.textobalao2{
+    display: flex;
+    color: #111111;
+    justify-content: right;
+    margin: -5% 7% 7% 7%;
+    font-family: "Biryani", sans-serif;
+    font-size: 0.8rem;
+}
