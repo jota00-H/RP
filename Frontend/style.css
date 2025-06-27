@@ -375,7 +375,7 @@ body{
     font-size: 2rem;
     color: rgba(17, 17, 17, 0.8);
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 130px;
 }
 
 .GRIDINOVACAO{
@@ -404,13 +404,14 @@ body{
 .AREADEMEMBROS{
     width: 594px;
     height: auto;
+    position: relative;
 }
     
 .sombravermelha{
     display: flex;
     background: #800020;
     border-radius: 50%;
-    width: 594px;
+    width: 550px;
     height: 179px;
     position: absolute;
     filter: blur(150px);
@@ -471,4 +472,121 @@ body{
     justify-content: center;
     z-index: 2;
     position: relative;
+}
+
+
+
+.sombrapreta2{
+    position: absolute;
+    display: flex;
+    background: #000000;
+    border-radius: 50%;
+    width: 570px;
+    height: 53px;
+    filter: blur(50px);
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: -25%;
+}
+
+.desiningsitemembros{
+    width: 487px;
+    height: 259px;
+    background-color: #fffdfd;
+    margin: 30% auto auto auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.logomembros0{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.logomembros{
+    width: 85px;
+    height: 55px;
+    justify-content: center;
+}
+
+.tracodiv{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #D4D0D0;
+}
+
+.navmembros{
+    position: absolute;
+    display: block;
+    width: 118px;
+    height: 203px;
+    background-color: #D4D0D0;
+    justify-items: center;
+}
+
+.textonav{
+    display: block;
+    margin-top: 20%;
+}
+
+.textonav1{
+    display: block;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 5%;
+}
+
+.on-boarding{
+    color: #800020;
+}
+
+.telavideo{
+    display: flex;
+    width: 246px;
+    height: 132px;
+    background-color: #212121;
+    margin:7% 0% 0% 35%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .botao-play {
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+.triangulo {
+      width: 0;
+      height: 0;
+      border-left: 14px solid black;
+      border-top: 9px solid transparent;
+      border-bottom: 9px solid transparent;
+      margin-left: 3px;
+}
+
+.sombraaream{
+    background: #F6F6F6;
+    border-radius: 50%;
+    width: 599px;
+    height: 125px;
+    position: relative;
+    filter: blur(20px);
+    z-index: 1;
+    margin-top: -7.3%;
+}
+
+.TEXTOSELO2{
+    margin: 15% 0% 0% 6%;
+    padding-bottom: 2%;
 }
