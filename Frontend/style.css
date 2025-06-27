@@ -183,7 +183,7 @@ body{
 }
 
 
-.PRIMEIRADIVISAO{ /* DIVIÃO EM GRID PARA OS ELEMENTOS DA PRIMEIRA LINHA*/
+.PRIMEIRADIVISAO{ /* DIVIÃO EM GRID PARA OS ELEMENTOS DA PRIMEIRA LINHA DO BOX ELO*/
     display: grid;
     justify-content: right;
     grid-template-areas:
@@ -246,7 +246,7 @@ body{
 }
 
 
-.SEGUNDADIVISAO{
+.SEGUNDADIVISAO{ /* DIVIÃO EM GRID PARA OS ELEMENTOS DA SEGUNDA LINHA DO BOX ELO*/
     display: grid;
     justify-content: left;
     grid-template-areas: 
@@ -255,7 +255,7 @@ body{
 }
 
 
-.bonecoelo{
+.bonecoelo{ /* IMAGEM ELO FAZENDO JOIA PEQUENA*/
     display: flex;
     grid-area: bonecoelo;
     width: 80px;
@@ -263,7 +263,7 @@ body{
     margin-top: -10%;
 }
 
-.sombraelo1{
+.sombraelo1{ /*SOBRA EMBAIXO DO BONECO DA ELO*/
     display: flex;
     background: #111111;
     border-radius: 50%;
@@ -273,7 +273,7 @@ body{
     margin-top: -20%;
 }
 
-.balao2{
+.balao2{ /*SEGUNDO BALÃO DE FALA DO GRID*/
     display: block;
     background: #fffdfd;
     border-radius: 20px;
@@ -284,7 +284,7 @@ body{
    
 }
 
-.textobalao02{ /*TEXTO DE "ELO, BOA NOITE" E ALINHAMENTO*/
+.textobalao02{ /*TEXTO DE "PLA, COMO POSSO TE AJUDAR" E ALINHAMENTO*/
     display: flex;
     justify-content: left;
     color: #111111;
@@ -304,56 +304,171 @@ body{
     font-size: 0.8rem;
 }
 
-.Suporte24h{
+.Suporte24h{/*BOX E ALINHAMENTO DOS TEXTOS DE DESCRIÇÃO DO GRID1*/
     margin: 7% 0% 0% 6%;
     color: #111111;
 }
 
-.TEXTOBOXES1{
-    font-family: "Biryani", sans-serif;
-    font-weight: bold;
-     font-size: 0.9rem;
-}
 
-.TEXTOBOXES2{
-    font-family: "Biryani", sans-serif;
-     font-size: 0.8rem;
-     color: #4D4D4D;
-}
-
-.imggrafico{
+.imggrafico{ /* IMAGEM DO GRAFICO DO SEGUNDO GRID*/
     display: flex; 
     justify-content: center; 
     margin-top: 20%;
 }
 
-.graficotexto{
+.graficotexto{/* DIV DE ALINHAMENTO DOS TEXTOS DO GRID 2*/
     margin: 10% 0% 0% 6%;
     color: #111111;
 }
 
 
-.vetor{
+.vetor{ /* IMAGEM DO RAIO DO TERCEIRO GRID*/
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
 
-.vetor1{
+.vetor1{ /* CONTORNO DO RAIO DO TERCEIRO GRID*/
     display: flex;
     justify-content: center;
     margin-top: -14%;
 }
 
-.vetor2{
+.vetor2{ /* CONTORNO TAMANHO MAIOR DO RAIO DO TERCEIRO GRID*/
     display: flex;
     justify-content: center;
     margin-top: -17%;
     height: 60%;
 }
 
-.FORCATEXTO{
+.FORCATEXTO{ /*ALINHAMENTO DOS TEXTOS DO TERCEIRO GRID*/ 
     margin: -5% 0% 0% 6%;  
+}
+
+.TEXTOBOXES1{/* DONTE COR E TAMANHO PARA TODOS OS TITULOS DOS GRIDS*/
+    font-family: "Biryani", sans-serif;
+    font-weight: bold;
+     font-size: 0.9rem;
+}
+
+.TEXTOBOXES2{/* DONTE COR E TAMANHO PARA TODAS AS DESCRIÇÕES DOS GRIDS*/
+    font-family: "Biryani", sans-serif;
+     font-size: 0.8rem;
+     color: #4D4D4D;
+}
+
+.SOLUCOESINTELIGENTES{
+    background-color: #fffdfd;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.SLOGAMINOVACAO{
+    display: flex;
+    margin-top: 10%;
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(17, 17, 17, 0.8);
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.GRIDINOVACAO{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 14px;
+}
+
+.BOXGRID2{
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.ELOINOVACAO{
+    width: 594px;
+    height: auto;
+    position: relative;
+}
+
+.AREADEMEMBROS{
+    width: 594px;
+    height: auto;
+}
+    
+.sombravermelha{
+    display: flex;
+    background: #800020;
+    border-radius: 50%;
+    width: 594px;
+    height: 179px;
+    position: absolute;
+    filter: blur(150px);
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: -40%;
 
 }
 
+.sombrapreta{
+    display: flex;
+    background: #000000;
+    border-radius: 50%;
+    width: 570px;
+    height: 53px;
+    filter: blur(30px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: -10%;
+}
+
+.TEXTOSELO1{
+     margin: 14% 0% 0% 6%;
+    padding-bottom: 2%;
+}
+
+.botaoaviso{
+    display: flex;
+    background: #e0cf1a;
+    border-radius: 10px;
+    width: 84px;
+    height: 34px;
+    position: relative;
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 3%;
+    font-style: italic;
+    align-items: center;
+    justify-items: center;
+}
+
+.novo{
+    color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.eloimg{
+    display: flex;
+    background: none;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
