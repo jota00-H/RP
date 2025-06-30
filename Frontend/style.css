@@ -912,9 +912,17 @@ body{
 }
 
 .sistemasacompanhamento{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
+   align-items: center;
+   justify-items: center;
+}
+
+.logofns{
+    margin-top: 150px;
+}
+
+
+.textossistemas{
+    margin-top: 80px;
+    width: 90%;
 }
 
