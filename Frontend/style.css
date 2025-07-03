@@ -1182,6 +1182,165 @@ body{
     padding-top: 5%;
 }
 
+@media(max-width:723px){
+
+.SLOGAMINOVACAO{ /*SLOGAM "MENTES BRILHNANTES, SAUDE INTELIGENTE*/
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: rgba(17, 17, 17, 0.8);
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.GRIDINOVACAO{ /* GRID PARA ALINHAMENTO ENTRE AREA DE MEMBROS E ELO*/
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+
+.BOXGRID2{ /*BOX CINZA DE FUNDO*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.ELOINOVACAO{ /*ELO*/
+    width: 370px;
+    height: auto;
+    position: relative;
+}
+
+.AREADEMEMBROS{ /*AREA DE MEMBROS*/
+    width: 370px;
+    height: auto;
+    position: relative;
+}
+    
+
+/*_______________________________________*/
+.desiningsitemembros{ /*ESBOÇO SITE PARA MEMBROS*/
+    width: 487px;
+    height: 259px;
+    background-color: #fffdfd;
+    margin: 30% auto auto auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.logomembros0{ /* DIV ALINHAMENTO DO LOGO PARA O ESBOÇO DO SIE*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.logomembros{ /*LOGO*/
+    width: 85px;
+    height: 55px;
+    justify-content: center;
+}
+
+.tracodiv{ /* TRAÇO DE DIVISAO ESBOÇO*/
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #D4D0D0;
+}
+
+.navmembros{ /*ALINHAMENTO NAVBAR*/
+    position: absolute;
+    display: block;
+    width: 118px;
+    height: 203px;
+    background-color: #D4D0D0;
+    justify-items: center;
+}
+
+.textonav{ /*ALINHAMENTO DOS TEXTOS NAVBAR*/
+    display: block;
+    margin-top: 20%;
+}
+
+.textonav1{ /*FONTE DOS TEXTOS NAVBAR*/
+    display: block;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 5%;
+}
+
+.on-boarding{ /*COR ESPECIFICA DE TEXTO*/
+    color: #800020;
+}
+
+.telavideo{ /*TAMANHO E ELINHAMENTO DA TELA DE VIDEO*/
+    display: flex;
+    width: 246px;
+    height: 132px;
+    background-color: #212121;
+    margin:4% 0% 0% 35%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .botao-play { /*FUNDO BOTAO PLAY*/
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+.triangulo { /*TRIANGULO CENTRAL BOTAO PALY*/
+      width: 0;
+      height: 0;
+      border-left: 14px solid black;
+      border-top: 9px solid transparent;
+      border-bottom: 9px solid transparent;
+      margin-left: 3px;
+}
+
+.sombraaream{ /*ALINHAMENTO E COR SOMBRA DESFARCE PARA O ESBOÇO SITE*/
+    background: #F6F6F6;
+    border-radius: 50%;
+    width: 599px;
+    height: 125px;
+    position: relative;
+    filter: blur(20px);
+    z-index: 1;
+    margin-top: -7.3%;
+}
+
+.TEXTOSELO2{ /*alinhamento texto area de membros*/
+    margin: 15% 0% 0% 6%;
+    padding-bottom: 2%;
+}
+
+
+.aula1{ /*AULA 01 ALINHAMETNO */
+    display: flex;
+    justify-content: center;
+    margin-left: -35%;
+    padding-top: 5%;
+}
+
+}
+
 /*_______________________________________________________________________________________________________________________*/
 /*_______________________________________________________________________________________________________________________*/
 /*_______________________________________________________________________________________________________________________*/
