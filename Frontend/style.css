@@ -402,7 +402,7 @@ body{
     
 }
 
-@media (max-width: 1161px) {
+@media (max-width: 1216px) {
     .GRIDAPRESENTACAO {
         grid-template-areas:
             "Elo"
@@ -1184,6 +1184,17 @@ body{
 
 @media(max-width:723px){
 
+    .SOLUCOESINTELIGENTES{ /* DIV DE ALINHAMENTO E INCLUSÃO DA ELO E AREA DE MEMBROS*/
+        background-color: #fffdfd;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+}
+
+
 .SLOGAMINOVACAO{ /*SLOGAM "MENTES BRILHNANTES, SAUDE INTELIGENTE*/
     display: flex;
     margin-top: 50px;
@@ -1231,7 +1242,7 @@ body{
 
 /*_______________________________________*/
 .desiningsitemembros{ /*ESBOÇO SITE PARA MEMBROS*/
-    width: 487px;
+    width: 370px;
     height: 259px;
     background-color: #fffdfd;
     margin: 30% auto auto auto;
@@ -1286,7 +1297,7 @@ body{
 
 .telavideo{ /*TAMANHO E ELINHAMENTO DA TELA DE VIDEO*/
     display: flex;
-    width: 246px;
+    width: 236px;
     height: 132px;
     background-color: #212121;
     margin:4% 0% 0% 35%;
@@ -1335,8 +1346,15 @@ body{
 .aula1{ /*AULA 01 ALINHAMETNO */
     display: flex;
     justify-content: center;
-    margin-left: -35%;
+    margin-left: -15%;
     padding-top: 5%;
+}
+
+.AREADEMEMBROS{ /*AREA DE MEMBROS*/
+    width: 370px;
+    height: auto;
+    position: relative;
+    
 }
 
 }
@@ -1548,6 +1566,147 @@ body{
     gap: 100px;
     flex-wrap: wrap;
 }
+
+@media(max-width:1216px){
+    .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    
+}
+    .todasimg{/*ALINHAMENTO DAS IMAGENS DENTRO DA DIV*/
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+}
+
+.abujamaimg{
+    margin-left: -40px;
+}
+
+.apaeimg{
+    margin-left: -60px;
+}
+
+.pitanguiimg{
+    margin-left: 7px;
+}
+
+.mirandopolisimg{
+    margin-left: -16px;
+}
+}
+
+
+@media(min-width:375px) and (max-width:1215px){
+    .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    
+}
+    .todasimg{/*ALINHAMENTO DAS IMAGENS DENTRO DA DIV*/
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-left: 60px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+}
+
+.abujamaimg{
+    margin-left: -40px;
+}
+
+.apaeimg{
+    margin-left: -60px;
+}
+
+.pitanguiimg{
+    margin-left: 7px;
+}
+
+.mirandopolisimg{
+    margin-left: -16px;
+}
+}
+
+@media(max-width:375px){
+    .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    
+}
+    .todasimg{/*ALINHAMENTO DAS IMAGENS DENTRO DA DIV*/
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-left: 45px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+}
+
+.abujamaimg{
+    margin-left: -10px;
+}
+
+.apaeimg{
+    margin-left: -40px;
+}
+
+.auriflamaimg{
+    margin-left: 40px;
+}
+
+.pitanguiimg{
+    margin-left: 40px;
+}
+
+.mirandopolisimg{
+    margin-left: 0px;
+}
+}
+
+
+
+
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________________________*/
+
+
 
 .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
     background-color: #fffdfd;
@@ -1840,6 +1999,331 @@ body{
 .textossistemas{ /*ALINHAEMNTO TEXTOS*/
     margin-top: 80px;
     width: 90%;
+}
+
+
+@media (min-width: 1217px) and (max-width: 1419px){
+
+    
+    .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
+    width: 100%;
+    margin: -40px auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.Textonossaconsultoria{ /*FONTE E COR DO TEXTO*/
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.0rem;
+    color: rgba(17, 17, 17, 0.8);
+}
+    
+    .BOXESCONSULTORIA{ /*DEIV DE ALINHAMENTO DAS BOXES DOS TIPOS DE CONSULTORIA*/
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+    
+    .BOXESCONSULTORIA {
+    display: grid; /* ← necessário */
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+      "Principal um dois";
+  }
+
+  .BOXESC1 {
+    grid-area: Principal;
+    padding-bottom: 20px;
+  }
+
+  .BOXESC1{ /*BACKGROUND BOXE 1*/
+     background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: 632px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .BOXESC2 {
+    grid-area: um;
+    padding-bottom: 20px;
+  }
+
+
+.BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+  .BOXESC3 {
+    grid-area: dois;
+    padding-bottom: 20px;
+  }
+
+  .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: 632px;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
+    
+    width: 100%;
+}
+
+}
+
+
+
+@media (min-width: 724px) and (max-width: 1216px){
+
+    .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
+    width: 100%;
+    margin: -80px auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.Textonossaconsultoria{ /*FONTE E COR DO TEXTO*/
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.0rem;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+    
+    .BOXESCONSULTORIA {
+    display: grid; /* ← necessário */
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+      "um"
+      "Principal"
+      "dois";
+  }
+
+ .BOXESC1 {
+    grid-area: Principal;
+    padding-bottom: 20px;
+  }
+
+  .BOXESC1{ /*BACKGROUND BOXE 1*/
+     background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 594px;
+    height: 632px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .BOXESC2 {
+    grid-area: um;
+    padding-bottom: 20px;
+  }
+
+
+.BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 594px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.sombrapreta1{ /*SOMBRA DE FUNDO DO CARD*/
+    display: flex;
+    background: #000000;
+    border-radius: 50%;
+    width: 300px;
+    height: 173px;
+    filter: blur(30px);
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: -70%;
+}
+
+
+
+  .BOXESC3 {
+    grid-area: dois;
+    padding-bottom: 20px;
+  }
+
+  .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 5%;
+    width: 594px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
+    
+    width: 100%;
+}
+
+}
+
+
+
+
+
+@media(max-width:723px){
+
+    .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
+    width: 100%;
+    margin: -80px auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.Textonossaconsultoria{ /*FONTE E COR DO TEXTO*/
+    font-family: 'SF Pro Semibold', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.0rem;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+
+
+    .BOXESCONSULTORIA{ /*DEIV DE ALINHAMENTO DAS BOXES DOS TIPOS DE CONSULTORIA*/
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+     .BOXESCONSULTORIA {
+    display: grid; /* ← necessário */
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+      "Principal" 
+      "um"
+      "dois";
+  }
+
+  .BOXESC1 {
+    grid-area: um;
+  }
+
+  .BOXESC1{ /*BACKGROUND BOXE 1*/
+    margin-top: 40px;
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: 652px;
+    justify-items: center;
+  }
+
+  .BOXESC2 {
+    grid-area: Principal;
+    padding-bottom: 20px;
+  }
+
+
+.BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 0%;
+    width: 370px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+  .BOXESC3 {
+    grid-area: dois;
+    padding-bottom: 20px;
+  }
+
+  .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 5%;
+    width: 370px;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logofns1{ /*ESPAÇAMETNO LOGO FNS*/
+    
+    width: 100%;
+}
+
+
 }
 
 
