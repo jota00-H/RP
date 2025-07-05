@@ -1593,7 +1593,9 @@ body{
     flex-wrap: wrap;
 }
 
-@media(max-width:1216px){
+
+
+@media(min-width: 724px) and (max-width: 1216px){
     .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
         width: 100%;
         height: auto;
@@ -1605,12 +1607,16 @@ body{
 }
     .todasimg{/*ALINHAMENTO DAS IMAGENS DENTRO DA DIV*/
         display: flex;
-        gap: 40px;
+        gap: 50px;
         flex-wrap: wrap;
         max-width: 400px;
-        margin-left: 40px;
-        margin-top: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
         padding-bottom: 0px;
+        justify-items: center;
+        justify-content: center;
+        transform: scale(1.4)
+        
 }
 
 .abujamaimg{
@@ -1631,7 +1637,10 @@ body{
 }
 
 
-@media(min-width:376px) and (max-width:1215px){
+
+
+
+@media(min-width:376px) and (max-width:723px){
     .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
         width: 100%;
         height: auto;
@@ -1651,6 +1660,7 @@ body{
         padding-bottom: 0px;
         justify-items: center;
         justify-content: center;
+        
 }
 
 .abujamaimg{
