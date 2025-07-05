@@ -1605,7 +1605,7 @@ body{
 }
 
 
-@media(min-width:375px) and (max-width:1215px){
+@media(min-width:376px) and (max-width:1215px){
     .imgprefeituras{ /*DIV DE IMAGENS DOS CLIENTES PARCEIROS*/
         width: 100%;
         height: auto;
@@ -1617,12 +1617,14 @@ body{
 }
     .todasimg{/*ALINHAMENTO DAS IMAGENS DENTRO DA DIV*/
         display: flex;
-        gap: 40px;
+        gap: 50px;
         flex-wrap: wrap;
         max-width: 400px;
-        margin-left: 60px;
+        margin-left: 20px;
         margin-top: 20px;
         padding-bottom: 0px;
+        justify-items: center;
+        justify-content: center;
 }
 
 .abujamaimg{
