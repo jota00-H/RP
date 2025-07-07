@@ -2372,6 +2372,44 @@ body{
 
 }
 
+.objetoscaixadeenvio{
+    padding-top: 100px;
+    justify-items: center;
+}
+
+.textos{
+    justify-items: center;
+}
+
+.vamosconversar{
+    display: flex;
+    justify-content: center;
+    color: #800020;
+    font-size: 55px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.preenchaoform{
+    margin-top: -10px;
+    display: flex;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(17, 17, 17, 0.8);
+    
+}
+
+.boxedeenvio{
+    background: #EDEDED;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    width: 513px;
+    height: 711px;
+    justify-items: center;
+}
 
 
 html, body {
