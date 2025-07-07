@@ -130,15 +130,27 @@ body{
 }
 
 
+.mobilemenu div{
+    width: 32px;
+    height: 2px;
+    background: #111111;
+    margin: 8px;
+    display: none;
+}
+
+
+
+
 @media(max-width: 723px){
     
     .LOGO{
         margin-left: -30px;
     }
-    
+
     .LINKS{
         display: none;
-    }
+}
+
 
     .MENUPRINCIPAL{ /* Section de textos*/
     margin-top: 40px;
@@ -2407,8 +2419,144 @@ body{
     margin-bottom: 5%;
     margin-top: 20px;
     width: 513px;
-    height: 711px;
+    height: 450px;
     justify-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #111111;
+}
+
+.textos000{
+    padding-top: 50px;
+}
+
+
+.boxedeenvio form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.boxedeenvio form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.boxedeenvio form input[type="tel"],
+.boxedeenvio form input[type="text"],
+.boxedeenvio form input[type="email"],
+.boxedeenvio form input[type="number"],
+.boxedeenvio form textarea,
+.boxedeenvio form input[type="text"]#idgtmensagem {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+.boxedeenvio form textarea,
+.boxedeenvio form input[type="text"]#idgtmensagem {
+    height: 80px;
+    resize: none;
+}
+
+.boxedeenvio form input[type="submit"] {
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-end;
+    transition: background-color 0.2s;
+}
+
+.boxedeenvio form input[type="submit"]:hover {
+    background-color: #650019;
+}
+
+@media (min-width: 724px) and (max-width: 1216px){
+.preenchaoform{
+    margin-top: -10px;
+    display: flex;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 1.7rem;
+    color: rgba(17, 17, 17, 0.8);
+    
+}
+}
+
+@media (max-width: 723px){
+
+    .vamosconversar{
+    display: flex;
+    justify-content: center;
+    color: #800020;
+    font-size: 45px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+    .preenchaoform{
+    margin-top: -10px;
+    display: flex;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 0.88rem;
+    color: rgba(17, 17, 17, 0.8);
+    
+}
+
+ .boxedeenvio{
+    background: #EDEDED;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    width: 370px;
+    height: 450px;
+    justify-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #111111;
+    margin-bottom: 60px;
+}
+}
+
+@media(max-width:375px){
+    .vamosconversar{
+    display: flex;
+    justify-content: center;
+    color: #800020;
+    font-size: 40px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+    .preenchaoform{
+    margin-top: -10px;
+    display: flex;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: italic;
+    font-size: 0.8rem;
+    color: rgba(17, 17, 17, 0.8);
+    
+}
+
+ .boxedeenvio{
+    background: #EDEDED;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    width: 370px;
+    height: 450px;
+    justify-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #111111;
+}
 }
 
 
