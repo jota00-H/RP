@@ -1262,6 +1262,32 @@ body{
     padding-top: 5%;
 }
 
+
+@media(min-width: 724px) and (max-width: 1216px){
+    .SOLUCOESINTELIGENTES{ /* DIV DE ALINHAMENTO E INCLUSÃO DA ELO E AREA DE MEMBROS*/
+        background-color: #fffdfd;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+    }
+    
+    .BOXGRID2{ /*BOX CINZA DE FUNDO*/
+    background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.04),
+    rgba(59, 60, 66, 0.04)
+    );
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
 @media(max-width:723px){
 
     .SOLUCOESINTELIGENTES{ /* DIV DE ALINHAMENTO E INCLUSÃO DA ELO E AREA DE MEMBROS*/
@@ -1304,7 +1330,7 @@ body{
     rgba(59, 60, 66, 0.04)
     );
     border-radius: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 
 .ELOINOVACAO{ /*ELO*/
@@ -2096,12 +2122,18 @@ body{
 
 @media (min-width: 1217px) and (max-width: 1419px){
 
-    
+    .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
+    background-color: #fffdfd;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 5%;
+}
+
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     width: 100%;
     margin: -40px auto;
     justify-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .Textonossaconsultoria{ /*FONTE E COR DO TEXTO*/
@@ -2161,8 +2193,8 @@ body{
     );
     border-radius: 20px;
     margin-bottom: 0%;
-    width: 370px;
-    height: auto;
+    width: 450px;
+    height: 692px;
     margin-top: 40px;
     justify-content: center;
     align-content: center;
@@ -2200,6 +2232,8 @@ body{
 
 
 @media (min-width: 724px) and (max-width: 1216px){
+
+    
 
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     width: 100%;
@@ -2241,8 +2275,8 @@ body{
     border-radius: 20px;
     margin-bottom: 0%;
     width: 594px;
-    height: 632px;
-    margin-top: 40px;
+    height: 602px;
+    margin-top: -40px;
     justify-content: center;
   }
 
@@ -2297,7 +2331,7 @@ body{
     margin-bottom: 5%;
     width: 594px;
     height: auto;
-    margin-top: 40px;
+    margin-top: -40px;
     justify-content: center;
     align-content: center;
   }
@@ -2354,7 +2388,7 @@ body{
   }
 
   .BOXESC1{ /*BACKGROUND BOXE 1*/
-    margin-top: 40px;
+    margin-top: 20px;
     background: radial-gradient(
     closest-side,
     rgba(255, 255, 255, 0.04),
@@ -2405,7 +2439,7 @@ body{
     margin-bottom: 5%;
     width: 370px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     justify-content: center;
     align-content: center;
   }
