@@ -22,48 +22,54 @@ body{
 
 }
 
-.HEADERSLINKS{ /* LOGO E LINKS DO HEADER*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
 
+.HEADERSLINKS {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.HEADERSLINKS .LOGO{ /* DIV EM QUE ESTÁ O LOGO*/
-    width: 157px;
-    height: 105px;
+.LOGO1 {
+  width: 157px;
+  height: auto;
 }
 
-.LOGO1{ /* LOGO */
-    width: 100%;
-    height: auto;
+.LINKS{
+    margin-right: 20px;
 }
 
-
-
-.HEADERSLINKS .LINKS{ /* DIV EM QUE ESTÁ OS LINKS*/
-    margin: 30px;
+.nav-list {
+  display: flex;
+  list-style: none;
 }
 
-.HEADERSLINKS .LINKS a{ /* PROPRIEDADE DOS LINKS DENTRO DA DIV*/
-    margin: 17px;
-    color: #111111e5;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-style: normal;
-    font-optical-sizing: auto;
-    font-weight: 300;
+.nav-list li {
+  margin: 0 15px;
 }
 
-
-.MENUPRINCIPAL{ /* Section de textos*/
-    margin-top: 3%;
-    background-color: #F6F6F6;
+.nav-list li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
 }
+
+.mobile-menu {
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-menu div {
+  width: 28px;
+  height: 2px;
+  background: #111;
+  margin: 6px;
+  transition: 0.3s;
+}
+
 
 
 .TituloP{ /* Titulo principal em vermelho*/
@@ -142,20 +148,78 @@ body{
 
 
 @media(max-width: 723px){
+
+    .HEADERSLINKS {
+        max-width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+     }
     
     .LOGO{
-        margin-left: -30px;
+        margin-left: -25PX;
     }
 
-    .LINKS{
-        display: none;
+    .mobile-menu {
+    display: block;
+    margin-right: 15px;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 0vh;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    z-index: 0;
+  }
+
+   .nav-list li {
+    opacity: 0;
+  }
+
+   .nav-list li a {
+    color: #111111;
+    font-size: 18px;
+  }
+
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+   .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+   .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
 }
-
-
-    .MENUPRINCIPAL{ /* Section de textos*/
-    margin-top: 40px;
-    background-color: #F6F6F6;
-    }
 
     .TituloP{
         display: flex;
@@ -544,6 +608,7 @@ body{
     height: 15px;
     filter: blur(10px);
     margin-top: -20%;
+    z-index: -1;
 }
 
 .balao2{ /*SEGUNDO BALÃO DE FALA DO GRID*/
