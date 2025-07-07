@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eloisa Abrantes</title>
+    <title>Eloisa Abrantes Consultoria</title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,16 +25,27 @@
 
 </head>
 <body>
-    <header>
+    <header id="INICIO">
         <div class="HEADERSLINKS">
-            <div class="LOGO"><img src="imagens/Removal-798 (1).png" class ="LOGO1"></div>
-            <div class="LINKS">
-                    <a href="INICIO">Inicio</a>
-                    <a href="SOLUÇÕES">Soluções</a>
-                    <a href="CONTATO">Contato</a>
-                    <a href="CC">Central do Consultor</a>
+            <a class="LOGO" href="#">
+            <img src="imagens/Removal-798 (1).png" class="LOGO1" alt="Logo">
+            </a>
+
+            <nav class="LINKS">
+            <ul class="nav-list">
+                <li><a href="#INICIO">Inicio</a></li>
+                <li><a href="#TECNOLOGIAS">Tecnologias</a></li>
+                <li><a href="#SOLUÇOES">Soluções</a></li>
+                <li><a href="#CONTATO">Contato</a></li>
+            </ul>
+            </nav>
+
+            <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
             </div>
-        </div>   
+        </div>
     </header>
 
 
@@ -101,7 +112,7 @@
     </section>   
 
 
-    <section class="SOLUCOESINTELIGENTES">
+    <section class="SOLUCOESINTELIGENTES" id="TECNOLOGIAS">
         <div class="SLOGAMINOVACAO">Mente brilhante, sistema inteligente</div>
         <div class="GRIDINOVACAO">
             <div class="ELOINOVACAO BOXGRID2">
@@ -171,7 +182,7 @@
         </div>
     </section>
 
-    <section class="NOSSOSSERVIÇOA">
+    <section class="NOSSOSSERVIÇOA" id="SOLUÇOES">
         <div class="NossaConsultoria">
             <div class="Textonossaconsultoria">Nossa Consultoria</div>
         </div>
@@ -292,5 +303,43 @@
             </div>
         </div>
     </section>
+
+    <section class="caixadeenvio" id="CONTATO">
+        <div class="objetoscaixadeenvio">
+            <div class="textos">
+                <div class="vamosconversar">Vamos Conversar?</div>
+                <div class="preenchaoform">Preencha o formulário e nossa equipe entrará em contato com você</div>
+            </div>
+
+            <div class="boxedeenvio">
+                <form action="" class="textos000">
+                    <p><label for="itelefone">Telefone</label>
+                        <input type="tel" name="telefone" id="itelefone" autocomplete="tel-national" required>
+                    </p>
+
+                    <p><label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" autocomplete="name" maxlength="50" required>
+                    </p>
+
+                    <p><label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" maxlength="50" required>
+                    </p>
+
+                    <p><label for="idgtmensagem">Digite sua mensagem</label>
+                        <input type="text" name="dgtmensagem" id="idgtmensagem" maxlength="30">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
 </body>
+
+
+
 </html>
