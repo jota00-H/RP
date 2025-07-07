@@ -481,7 +481,7 @@ body{
     
 }
 
-@media (max-width: 1216px) {
+@media (max-width: 1161px) {
     .GRIDAPRESENTACAO {
         grid-template-areas:
             "Elo"
@@ -1290,17 +1290,6 @@ body{
 
 @media(max-width:723px){
 
-    .SOLUCOESINTELIGENTES{ /* DIV DE ALINHAMENTO E INCLUSÃO DA ELO E AREA DE MEMBROS*/
-        background-color: #fffdfd;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        padding-bottom: 60px;
-}
-
-
 .SLOGAMINOVACAO{ /*SLOGAM "MENTES BRILHNANTES, SAUDE INTELIGENTE*/
     display: flex;
     margin-top: 50px;
@@ -1348,7 +1337,7 @@ body{
 
 /*_______________________________________*/
 .desiningsitemembros{ /*ESBOÇO SITE PARA MEMBROS*/
-    width: 370px;
+    width: 487px;
     height: 259px;
     background-color: #fffdfd;
     margin: 30% auto auto auto;
@@ -1403,7 +1392,7 @@ body{
 
 .telavideo{ /*TAMANHO E ELINHAMENTO DA TELA DE VIDEO*/
     display: flex;
-    width: 236px;
+    width: 246px;
     height: 132px;
     background-color: #212121;
     margin:4% 0% 0% 35%;
@@ -1452,15 +1441,8 @@ body{
 .aula1{ /*AULA 01 ALINHAMETNO */
     display: flex;
     justify-content: center;
-    margin-left: -15%;
+    margin-left: -35%;
     padding-top: 5%;
-}
-
-.AREADEMEMBROS{ /*AREA DE MEMBROS*/
-    width: 370px;
-    height: auto;
-    position: relative;
-    
 }
 
 }
@@ -1673,6 +1655,7 @@ body{
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 
 
 @media(min-width: 724px) and (max-width: 1216px){
@@ -1826,6 +1809,8 @@ body{
 
 
 
+=======
+>>>>>>> parent of 10c06e4 (Update style.css)
 .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
     background-color: #fffdfd;
     justify-content: center;
@@ -2120,6 +2105,7 @@ body{
 }
 
 
+<<<<<<< HEAD
 @media (min-width: 1217px) and (max-width: 1419px){
 
     .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
@@ -2627,6 +2613,8 @@ body{
 }
 }
 
+=======
+>>>>>>> parent of 10c06e4 (Update style.css)
 
 html, body {
   max-width: 100%;
